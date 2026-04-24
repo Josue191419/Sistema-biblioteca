@@ -1,0 +1,34 @@
+target/
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/compiler.xml
+*.iws
+### Eclipse ###
+.apt_generated
+.idea/
+.settings
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+### VS Code ###
+.vscode/
+!**/src/test/**/build/
+.factorypath
+### Mac OS ###
+nbproject/private/
+dist/
+nbdist/
+.nb-gradle/
+
+# Maven
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
