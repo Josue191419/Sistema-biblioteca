@@ -121,6 +121,19 @@ mvn exec:java -Dexec.mainClass="org.example.Main"
 
 Si tu equipo no reconoce `mvn`, instala Maven y agrega su carpeta `bin` al `PATH` del sistema.
 
+## Interfaz JavaFX
+
+Se agrego una interfaz grafica con pestañas para `Libros`, `Usuarios`, `Prestamos`, `Biblioteca` y `Bibliotecarios`,
+incluyendo busqueda de libros en Open Library desde el modulo de libros.
+
+Para ejecutar JavaFX:
+
+```powershell
+mvn clean javafx:run
+```
+
+La app JavaFX inicia en `org.example.MainFx`.
+
 ## Flujo funcional general
 
 1. Registrar libros.
